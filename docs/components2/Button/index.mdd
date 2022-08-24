@@ -1,0 +1,23 @@
+---
+order: 2
+group:
+  path: /base
+  title: 基础组件
+---
+
+## Button
+
+Demo:
+
+```tsx
+import React from 'react';
+import { Button } from 'ocean-design-react';
+
+export default () => <Button disabled>按钮🔘</Button>;
+```
+
+<code src="../../../src/Button/index.tsx" background="#eee" title="code" />
+
+<API src="../../../src/Button/index.tsx" />
+
+More skills for writing demo: https://d.umijs.org/guide/basic#write-component-demo
